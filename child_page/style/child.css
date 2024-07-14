@@ -1,0 +1,503 @@
+
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+ 
+}
+
+
+
+/* root vaiables  */
+
+
+:root {
+  --color1:#B97141;
+  --color2:#2D636D;
+  --color3:#E1CEBF;
+  --color4:white;
+  --color5:black;
+  --padding:3rem 0 3rem 0;
+  --size:1.8rem;
+}
+
+
+
+
+  /* html */
+
+  html
+  {
+    font-size:10px; /* 1rem = 10rem */
+  }
+
+
+
+  /* midddle section of child page  */
+
+
+  /* social link */
+
+  .social_link
+  {
+    width:100%;
+    height:auto;
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+    position:fixed;
+    top:25rem;
+    z-index:3;
+  }
+
+  .social_link a 
+  {
+    text-decoration: none;
+    font-size:3rem;
+    color:white;
+    display:inline-block;
+    width:5rem;
+    height:10rem;
+    background-color:blue;
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+  
+  
+
+  .hero_beforSection
+  {
+    height:7rem;
+    background-color: var(--color3);
+    width:100%;
+  }
+
+
+  /* about page */
+
+.about_box2 
+{
+  height:auto;
+  
+}
+
+.about_box2 .right
+{
+  width:90%;
+  margin: auto;
+  height:100%;
+}
+
+
+/* banquet */
+
+.banquet_section
+{
+  height:auto;
+  border:1px solid white;
+  padding: var(--padding);
+
+}
+
+.banquet_section .right 
+{
+  width:90%;
+  margin: auto;
+  height:100% !important;
+}
+
+
+/* gallery section */
+
+.gallery_pic 
+{
+  padding: var(--padding);
+  height:auto;
+  background-color: var(--color2);
+
+}
+
+
+.header_gallery
+{
+  width:90%;
+  height:auto;
+  margin: auto;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.header_gallery h1 
+{
+  font-size:4rem;
+  color:var(--color4);
+}
+
+.content_gallery
+{
+  width:90%;
+  height:auto;
+  margin: auto;
+  justify-content:space-evenly;
+  display:flex;
+  flex-wrap:wrap;
+  row-gap:2rem;
+  margin-top:2rem;
+}
+
+.content_gallery img 
+{
+  width:22rem;
+  height:22rem;
+  object-fit: cover;
+}
+
+
+/* event in noida */
+
+
+.event_section
+{
+  padding: var(--padding);
+  height:auto;
+  background-color: var(--color2);
+  height:70rem;
+}
+
+.event_section_box
+{
+  height:100%;
+  width:90%;
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+   
+}
+
+.event_section_box .left 
+{
+width:50%;
+height:100%;
+margin-top:10rem;
+
+}
+
+.event_section_box ,.left, h2 ,h1 ,p
+{
+color:var(--color4)
+}
+
+.right>h2 
+{
+font-size:5rem;
+font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.right>h1 
+{
+font-size:2rem;
+font-family: 'Times New Roman', Times, serif;
+padding-top:3rem;
+
+}
+
+.right>p
+{
+font-size:1.5rem;
+padding-top:1rem;
+line-height:2;
+word-break: break-all;
+}
+
+
+
+
+
+.event_section_box .left>img 
+{
+width:100%;
+height:80%;
+}
+
+
+
+
+.event_section_box .right
+{
+width:40%;
+height:100%;
+display:flex;
+justify-content:center;
+align-items:flex-start;
+flex-direction: column;
+
+}
+
+
+
+
+.right>a 
+{
+  width:100% !important;
+  height:9rem;
+  background-color:var(--color4);
+  color:var(--color1);
+  display:inline-block;
+  text-decoration:none;
+  font-size:2rem;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bolder;
+  border-radius:5px;
+  margin-top:1rem;
+
+}
+
+
+.event_title
+{
+  width:90%;
+  margin: auto;
+  text-align: center;
+  text-transform: capitalize;
+  color:var(--color4);
+  height:10rem;
+}
+
+
+/* contact us section */
+
+.contact_section
+{
+  background-color: var(--color2);
+  padding: var(--padding);
+  height:auto;
+
+}
+
+.contact_page
+{
+  width:90%;
+  height:auto;
+  display:flex;
+  justify-content:space-evenly;
+  margin: auto;
+}
+
+.form_container
+{
+  width:40%;
+  padding:1rem;
+
+}
+
+.form_container form label, input 
+{
+  display:block;
+}
+
+
+.form_container form label
+{
+  font-size:1.8rem;
+  color:var(--color4);
+  text-transform: capitalize;
+  margin-top:2rem;
+  
+
+}
+
+.form_container form input
+{
+  width:40rem;
+  height:5rem;
+  text-transform: capitalize;
+  padding-left:2rem;
+  font-size:1.5rem;
+  border-radius:0.5rem;
+  border:none;
+  outline:none;
+  margin-top:1rem;
+}
+
+
+.form_container form button 
+{
+  width:40rem;
+  height:5rem;
+  background-color: var(--color1);
+  color:var(--color4);
+  font-size:2rem;
+  text-transform: capitalize;
+  margin:auto;
+  border:none;
+  margin-top:3rem;
+
+}
+
+
+
+
+.contact_content
+{
+  width:50%;
+  padding:1rem;
+
+
+}
+
+.form_container h1 
+{
+  text-transform: uppercase;
+  color:var(--color4);
+}
+
+
+.contact_content h3 
+{
+  text-transform: uppercase;
+  font-size:4rem;
+  color:var(--color1)
+}
+
+.contact_content a
+{
+  display:block;
+  color:var(--color4);
+  font-size:2rem;
+  text-decoration: none;
+  margin-top:1rem;
+
+}
+
+.email
+{
+  font-size:3rem !important;
+  margin-top:3rem !important;
+}
+
+/* booking section */
+
+.booking_page
+{
+  background-color:var(--color3);
+  padding: var(--padding);
+
+}
+
+.booking_page_child
+{
+  width:90%;
+  margin:auto;
+  margin-top:3rem;
+}
+
+.booking_page_child h2 
+{
+  color:var(--color2);
+  text-transform: uppercase;
+  font-size:3rem;
+}
+
+.premium_room_box
+{
+  width:80%;
+  height:auto;
+  padding-top:5rem;
+  margin: auto;
+  
+}
+
+.premium_room_box p 
+{
+  font-size:1.5rem;
+  line-height:3rem;
+  padding-top:2rem;
+}
+
+.premium_flex
+{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  height:100%;
+  margin-top:3rem;
+}
+
+.premium_content
+{
+  width:100%;
+  color:var(--color2);
+  height:100%;
+ 
+}
+
+.room_img
+{
+  width:100%;
+  height:30rem !important;
+}
+
+.room_img h3
+{
+padding-top:2rem;
+color:var(--color2);
+}
+
+.room_img img
+{
+  width:100%;
+  height:100%;
+}
+ 
+
+.premium_room_box>h3
+{
+color:var(--color4);
+text-align:center;
+background-color:var(--color5);
+color:var(--color4);
+padding:2rem 0 2rem 0;
+}
+
+.premium_content ul
+{
+  margin-top:3rem;
+}
+
+.premium_content ul li 
+{
+  font-size:1.8rem;
+  font-weight:normal !important;
+  padding-top:1rem;
+}
+
+.premium_content h4 
+{
+  font-size:2rem;
+}
+
+.premium_content a 
+{
+  display:inline-block;
+  width:20rem;
+  height:5rem;
+  background-color:var(--color4);
+  display:grid;
+  place-items:center;
+  text-decoration: none;
+  font-size:2rem;
+  text-transform:capitalize;
+  border-radius:1rem;
+  color:var(--color2);
+}
+

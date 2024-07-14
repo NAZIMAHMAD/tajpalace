@@ -1,0 +1,331 @@
+
+/* for responsive using media query */
+
+
+
+@media only screen and (min-width:0px) and (max-width:600px)
+{
+
+
+
+    :root {
+        --color1:#B97141;
+        --color2:#2D636D;
+        --color3:#E1CEBF;
+        --color4:white;
+        --color5:black;
+        --padding:3rem 0 3rem 0;
+        --size:1.8rem;
+      }
+    
+
+    
+    
+/* header responsive css */
+
+
+.main_tag
+{
+    width:100%;
+}
+
+
+
+
+.header
+{  
+     width: 100%;
+    border-bottom:3px solid white;
+    position:sticky !important;
+    top: 0 !important;
+}
+
+.title_head>i
+{
+    display:block;
+    font-size:3rem;
+    border:2px solid white;
+    width:4rem;
+    height:4rem;
+    border-radius:50%;
+    padding-top:2px;
+
+}
+
+
+
+
+
+.title_head
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width:90%;
+
+    
+}
+
+
+/* navbar responsive css */
+
+.navbar
+{
+   width:100%;
+   position:absolute !important;
+   left:0;
+   top:9rem !important;
+   z-index: 999;
+   background-color:var(--color2);
+
+     
+}
+
+#navbar
+{
+    display:none;
+    border-top:2px solid white;
+    height:50rem ;
+
+}
+
+
+
+.list_item
+{
+    display:block !important;
+    width:80%;
+    padding:2rem 0 2rem 0 !important;
+
+
+}
+
+
+.list_item>li
+{
+   padding-top:1rem;
+   border-bottom:2px solid white;
+   padding:2rem 0 2rem 0;
+
+}
+
+
+
+
+
+/* about section res css */
+
+.about_section
+{
+    width:100%;
+    height:180rem !important;
+}
+
+
+.about_section_card
+{
+    display:flex;
+    flex-direction:column;
+    width:80% !important;
+
+}
+
+.card_hotel
+{
+    width:100% !important;
+    margin-top:2rem;
+    opacity:0.8 !important;
+}
+
+/* about section */
+
+
+.about_section_box
+{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    margin: auto;
+    border: 1px solid red;
+    padding: var(--padding);
+
+
+}
+
+.about_section_box .left 
+{
+width:100% !important;
+border: 1px solid red;
+
+
+}
+
+
+
+.about_section_box .right
+{
+width:90% !important;
+position: relative;
+left:2rem;
+border: 1px solid red;
+height: auto;
+
+
+}
+
+/* banquet */
+
+.banquet_section
+{
+  height:auto !important;
+}
+
+.banquet_section .right 
+{
+  height:100% !important;
+
+
+
+}
+
+
+
+/* gallery section */
+
+
+.content_gallery img 
+{
+    width:100%;
+}
+
+
+
+/* event section */
+
+
+.event_section
+{
+  
+  height:120rem;
+}
+.event_section_box
+{
+    flex-direction: column;
+}
+
+.event_section_box .left
+{
+width:100%;
+}
+
+.event_section_box .right
+{
+width:100%;
+}
+
+
+
+/* contact us */
+
+.contact_page
+{
+flex-direction: column;
+flex-direction: column-reverse;
+}
+
+.form_container
+{
+    width:100%;
+}
+
+.contact_content 
+{
+    width:100%;
+
+
+}
+
+
+
+.form_container form input
+{
+  width:100%;
+  
+}
+
+
+.form_container form button 
+{
+  width:100%;
+  
+
+}
+
+
+
+/* booking section css */
+
+.premium_flex
+{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction: column;
+  width:90% !important;
+  
+ 
+}
+
+.booking_page_child
+{
+    margin-top:0rem !important;
+}
+
+.premium_room_box
+{
+  width:90% !important;
+  height:auto;
+  margin-top:2rem !important;
+  margin: auto;
+  row-gap:2rem;
+  
+}
+
+.room_img
+{
+    width:100% !important;
+}
+
+.room_img img
+{
+    width:100%;
+}
+
+.premium_flex
+{
+    row-gap:4rem;
+    width:100%;
+}
+
+.premium_room_box>p 
+{
+    margin-top:3rem !important;
+}
+
+/* footer section */
+
+.location
+{
+position: relative;
+bottom:6rem;
+
+}
+
+.choose_us 
+{
+    position: relative;
+    top:6rem;
+}
+
+
+}
